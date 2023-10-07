@@ -3,14 +3,15 @@ public class simplepasswordcheckthisisnotsecureintheslightest {
     public static void main(String[]args) {
         Scanner scan = new Scanner(System.in);
 
-        String password = "password";
+        String password = "secure_password";
 
         System.out.println("enter the password");
+
 
         String user_password = scan.nextLine();
 
         if (user_password.equals(password)) {
-            System.out.println("you got the password good job");
+        System.out.println("good job you got it right, the secrets of the world are now upon you, and the secret is: ");
 
         }
             else {
